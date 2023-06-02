@@ -13,7 +13,7 @@
 		73D658B72A25CFEB00E11E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D658B52A25CFEB00E11E5E /* Main.storyboard */; };
 		73D658B92A25CFEC00E11E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73D658B82A25CFEC00E11E5E /* Assets.xcassets */; };
 		73D658BC2A25CFEC00E11E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D658BA2A25CFEC00E11E5E /* LaunchScreen.storyboard */; };
-		73D658C42A25D01100E11E5E /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D658C32A25D01100E11E5E /* TagView.swift */; };
+		73D658C42A25D01100E11E5E /* MovingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D658C32A25D01100E11E5E /* MovingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		73D658B82A25CFEC00E11E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73D658BB2A25CFEC00E11E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73D658BD2A25CFEC00E11E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73D658C32A25D01100E11E5E /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		73D658C32A25D01100E11E5E /* MovingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				73D658B82A25CFEC00E11E5E /* Assets.xcassets */,
 				73D658BA2A25CFEC00E11E5E /* LaunchScreen.storyboard */,
 				73D658BD2A25CFEC00E11E5E /* Info.plist */,
-				73D658C32A25D01100E11E5E /* TagView.swift */,
+				73D658C32A25D01100E11E5E /* MovingView.swift */,
 			);
 			path = TagView;
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 				73D658B42A25CFEB00E11E5E /* ViewController.swift in Sources */,
 				73D658B02A25CFEB00E11E5E /* AppDelegate.swift in Sources */,
 				73D658B22A25CFEB00E11E5E /* SceneDelegate.swift in Sources */,
-				73D658C42A25D01100E11E5E /* TagView.swift in Sources */,
+				73D658C42A25D01100E11E5E /* MovingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
