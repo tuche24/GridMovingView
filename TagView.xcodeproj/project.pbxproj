@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AA672492A95BE2C00040428 /* GridMovingView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5AA672482A95BE2C00040428 /* GridMovingView.gif */; };
 		73D658B02A25CFEB00E11E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D658AF2A25CFEB00E11E5E /* AppDelegate.swift */; };
 		73D658B22A25CFEB00E11E5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D658B12A25CFEB00E11E5E /* SceneDelegate.swift */; };
 		73D658B42A25CFEB00E11E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D658B32A25CFEB00E11E5E /* ViewController.swift */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AA672472A95BDC800040428 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5AA672482A95BE2C00040428 /* GridMovingView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GridMovingView.gif; sourceTree = "<group>"; };
 		73D658AC2A25CFEB00E11E5E /* TagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D658AF2A25CFEB00E11E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73D658B12A25CFEB00E11E5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AA672462A95BDBA00040428 /* README */ = {
+			isa = PBXGroup;
+			children = (
+				5AA672482A95BE2C00040428 /* GridMovingView.gif */,
+			);
+			path = README;
+			sourceTree = "<group>";
+		};
 		73D658A32A25CFEB00E11E5E = {
 			isa = PBXGroup;
 			children = (
+				5AA672472A95BDC800040428 /* README.md */,
 				73D658AE2A25CFEB00E11E5E /* TagView */,
 				73D658AD2A25CFEB00E11E5E /* Products */,
 			);
@@ -58,6 +70,7 @@
 		73D658AE2A25CFEB00E11E5E /* TagView */ = {
 			isa = PBXGroup;
 			children = (
+				5AA672462A95BDBA00040428 /* README */,
 				73D658AF2A25CFEB00E11E5E /* AppDelegate.swift */,
 				73D658B12A25CFEB00E11E5E /* SceneDelegate.swift */,
 				73D658B32A25CFEB00E11E5E /* ViewController.swift */,
@@ -131,6 +144,7 @@
 				73D658BC2A25CFEC00E11E5E /* LaunchScreen.storyboard in Resources */,
 				73D658B92A25CFEC00E11E5E /* Assets.xcassets in Resources */,
 				73D658B72A25CFEB00E11E5E /* Main.storyboard in Resources */,
+				5AA672492A95BE2C00040428 /* GridMovingView.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
